@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/LinearLayout1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <Button android:id="@+id/input"
+        android:layout_width="300dp"
+        android:layout_height="64dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="30dp"
+        android:textAllCaps="false"
+        android:text="inputANRDemo"
+        android:onClick="InvokeInputAnrDemo"/>
+
+    <Button android:id="@+id/service"
+        android:layout_width="300dp"
+        android:layout_height="64dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_below="@+id/input"
+        android:textAllCaps="false"
+        android:text="serviceANRDemo"
+        android:onClick="InvokeServiceAnrDemo"/>
+
+    <Button android:id="@+id/broadcast"
+        android:layout_width="300dp"
+        android:layout_height="64dp"
+        android:layout_below="@+id/service"
+        android:layout_gravity="center_horizontal"
+        android:textAllCaps="false"
+        android:text="broadcastANRDemo"
+        android:onClick="InvokeBroadCastAnrDemo"/>
+
+</LinearLayout>
